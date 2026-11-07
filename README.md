@@ -87,7 +87,7 @@ not in that folder.
 In the session's prompt box, type these two commands, one at a time:
 
 ```
-/plugin marketplace add atinder-harika/dm-reaction-skill
+/plugin marketplace add atinder-harika/reel-reactor
 ```
 ```
 /plugin install reel-reactor@reel-reactor-marketplace
@@ -102,11 +102,11 @@ Pick **user** scope when it asks, so it's available in every session.
   (the marketplace has to be added first, as above).
 - **Terminal** (Claude Code CLI):
   ```bash
-  claude plugin marketplace add atinder-harika/dm-reaction-skill
+  claude plugin marketplace add atinder-harika/reel-reactor
   claude plugin install reel-reactor@reel-reactor-marketplace
   ```
-- **From a clone, no install:** `git clone https://github.com/atinder-harika/dm-reaction-skill`,
-  then `claude --plugin-dir ./dm-reaction-skill`.
+- **From a clone, no install:** `git clone https://github.com/atinder-harika/reel-reactor`,
+  then `claude --plugin-dir ./reel-reactor`.
 </details>
 
 ### 3. Start a fresh session
