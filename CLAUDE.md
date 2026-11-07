@@ -33,7 +33,7 @@ It's educational, probably against Instagram's ToS, and only ever used on a thro
   Tools appear as `mcp__plugin_reel-reactor_playwright__*`.
 - `config/reel-reactor.example.json`: defaults (new installs are **live**: `dryRun: false`); rr.mjs creates the config from it.
 - `scripts/run-once.ps1`, `scripts/schedule-windows.ps1`: CLI-only scheduling on Windows (Task Scheduler `ReelReactor-HHMM`).
-- Primary user path is the Claude desktop app: `/plugin marketplace add atinder-harika/dm-reaction-skill` → install →
+- Primary user path is the Claude desktop app: `/plugin marketplace add atinder-harika/reel-reactor` → install →
   new session → `/reel-reactor:setup` → `/reel-reactor:react`; the scheduled task comes from setup / `/reel-reactor:schedule`.
 
 ## Runtime files (outside the repo)
